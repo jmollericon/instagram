@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, Button, TextInput } from 'react-native'
+import { View, Button, TextInput } from 'react-native'
 
 import firebase from 'firebase';
 export class Register extends Component {
