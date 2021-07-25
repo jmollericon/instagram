@@ -11,7 +11,8 @@ export default function Add() {
   const [type, setType] = useState(Camera.Constants.Type.back)
 
   useEffect(() => {
-    ;(async () => {
+    // prettier-ignore
+    (async () => {
       const cameraStatus = await Camera.requestPermissionsAsync()
       setHasCameraPermission(cameraStatus.status === 'granted')
 
